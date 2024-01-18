@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@spreadtheweb/multi-range-slider": "^1.0.3",
+    "mithril": "^2.2.2"
+  },
+  "name": "leasewebtc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "start": "webpack ./mithril/src/index.js --output-path ./bin --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
