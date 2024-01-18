@@ -21,7 +21,7 @@ var Server = {
         console.log(this.selectedFilters)
         return m.request({
             method: "GET",
-            url: "http://127.0.0.1:8000/api/server",
+            url: "https://www.main-bvxea6i-bevc5xhy4iabo.fr-4.platformsh.site/api/server",
             params: this.selectedFilters
         })
         .then(function(result) {
